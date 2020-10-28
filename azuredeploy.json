@@ -124,7 +124,7 @@
           ],
           "properties": {
             "startIpAddress": "0.0.0.0",
-            "endIpAddress": "0.0.0.0"
+            "endIpAddress": "10.0.0.0"
           }
         },
         {
@@ -136,7 +136,7 @@
             "[resourceId('Microsoft.Sql/servers', parameters('D1'))]"
           ],
           "tags": {
-            "displayName": "appbase1"
+            "displayName": "appbase"
           },
           "properties": {
             "collation": "[parameters('appbaseCollation')]",
