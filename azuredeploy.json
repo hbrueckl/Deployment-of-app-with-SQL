@@ -48,6 +48,14 @@
         "Premium"
       ]
     },
+    {
+    "name": "string",
+    "type": "Microsoft.Sql/servers/databases/securityAlertPolicies",
+    "apiVersion": "2020-02-02-preview",
+    "properties": {
+      "state": "string"
+    },
+    }
     "appbaseRequestedServiceObjectiveName": {
       "type": "string",
       "defaultValue": "Basic",
