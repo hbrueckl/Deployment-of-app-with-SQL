@@ -136,7 +136,7 @@
             "[resourceId('Microsoft.Sql/servers', parameters('D1'))]"
           ],
           "tags": {
-            "displayName": "appbase"
+            "displayName": "appbase1"
           },
           "properties": {
             "collation": "[parameters('appbaseCollation')]",
